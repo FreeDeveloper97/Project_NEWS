@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--ver3.0 국가 그룹 생성-->
+    <item android:id="@+id/korea"
+        android:title="한국 KOREA">
+        <menu>
+            <group>
+                <item android:title="주요뉴스 Top headlines"
+                    android:id="@+id/menu_topheadlines"
+                    app:showAsAction="never"
+                    />
+                <item android:title="경제 Business"
+                    android:id="@+id/menu_business"
+                    app:showAsAction="never"
+                    />
+                <item android:title="연예 Entertainment"
+                    android:id="@+id/menu_entertainment"
+                    app:showAsAction="never"
+                    />
+                <item android:title="건강 Health"
+                    android:id="@+id/menu_health"
+                    app:showAsAction="never"
+                    />
+                <item android:title="과학 Science"
+                    android:id="@+id/menu_science"
+                    app:showAsAction="never"
+                    />
+                <item android:title="스포츠 Sports"
+                    android:id="@+id/menu_sports"
+                    app:showAsAction="never"
+                    />
+                <item android:title="기술 Technology"
+                    android:id="@+id/menu_technology"
+                    app:showAsAction="never"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/usa"
+        android:title="미국 USA">
+        <menu>
+            <group>
+                <item android:title="주요뉴스 Top headlines"
+                    android:id="@+id/menu_topheadlines_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="경제 Business"
+                    android:id="@+id/menu_business_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="연예 Entertainment"
+                    android:id="@+id/menu_entertainment_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="건강 Health"
+                    android:id="@+id/menu_health_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="과학 Science"
+                    android:id="@+id/menu_science_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="스포츠 Sports"
+                    android:id="@+id/menu_sports_usa"
+                    app:showAsAction="never"
+                    />
+                <item android:title="기술 Technology"
+                    android:id="@+id/menu_technology_usa"
+                    app:showAsAction="never"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/china"
+        android:title="중국 CHINA">
+        <menu>
+            <group>
+                <item android:title="주요뉴스 Top headlines"
+                    android:id="@+id/menu_topheadlines_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="경제 Business"
+                    android:id="@+id/menu_business_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="연예 Entertainment"
+                    android:id="@+id/menu_entertainment_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="건강 Health"
+                    android:id="@+id/menu_health_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="과학 Science"
+                    android:id="@+id/menu_science_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="스포츠 Sports"
+                    android:id="@+id/menu_sports_chi"
+                    app:showAsAction="never"
+                    />
+                <item android:title="기술 Technology"
+                    android:id="@+id/menu_technology_chi"
+                    app:showAsAction="never"
+                    />
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/japan"
+        android:title="일본 JAPAN">
+        <menu>
+            <group>
+                <item android:title="주요뉴스 Top headlines"
+                    android:id="@+id/menu_topheadlines_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="경제 Business"
+                    android:id="@+id/menu_business_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="연예 Entertainment"
+                    android:id="@+id/menu_entertainment_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="건강 Health"
+                    android:id="@+id/menu_health_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="과학 Science"
+                    android:id="@+id/menu_science_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="스포츠 Sports"
+                    android:id="@+id/menu_sports_jap"
+                    app:showAsAction="never"
+                    />
+                <item android:title="기술 Technology"
+                    android:id="@+id/menu_technology_jap"
+                    app:showAsAction="never"
+                    />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.freedeveloper.simple_news">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/simple_news"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- ver1.1 로딩화면 추가
+        <activity
+            android:name="com.freedeveloper.simple_news.LoadingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoadingTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+
+        <!--ver3.1 로딩화면 개선-->
+        <activity
+            android:name=".LoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- ver1.1 로딩화면 후 액티비티 전환-->
+        <activity android:name="com.freedeveloper.simple_news.NewsActivity">
+
+        </activity>
+        <activity android:name="com.freedeveloper.simple_news.MyAdapter">
+
+        </activity>
+        <activity android:name="com.freedeveloper.simple_news.NewsDetailActivity">
+
+        </activity>
+    </application>
+
+</manifest>
